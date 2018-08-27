@@ -1,0 +1,40 @@
+
+.background {
+    background-color: #2183c2;
+}
+
+h4, h6 {
+    font-family: Ubuntu;
+    padding: 2px;
+}
+
+h4{
+    font-size:30px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+#form-submit{
+    padding: 15px;
+}
+#heading{
+    padding: 10px;
+}
+#paragraph{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+    #paragraph, #form-submit, #heading {
+        padding: 10px;
+    }
+
+    h4{
+        font-size:22px;
+    }
+    h6{
+        font-size:14px;
+    }
+}
